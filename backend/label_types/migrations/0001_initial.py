@@ -6,6 +6,7 @@ import label_types.models
 
 
 class Migration(migrations.Migration):
+    atomic = False
 
     initial = True
 

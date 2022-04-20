@@ -19,6 +19,7 @@ def fill_task_type(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
+    atomic = False
 
     dependencies = [
         ("auto_labeling", "0002_autolabelingconfig_task_type"),

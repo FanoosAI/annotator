@@ -5,6 +5,7 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
+    atomic = False
     dependencies = [
         ("projects", "0003_alter_project_polymorphic_ctype"),
     ]

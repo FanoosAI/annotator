@@ -13,6 +13,7 @@ def create_uuid(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
+    atomic = False
 
     dependencies = [
         ("api", "0016_auto_20211018_0556"),

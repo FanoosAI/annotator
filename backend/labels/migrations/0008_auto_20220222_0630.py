@@ -38,6 +38,7 @@ def delete_new_relation(apps, schema_editor):
 
 class Migration(migrations.Migration):
 
+    atomic = False
     dependencies = [
         ("labels", "0007_relationnew"),
     ]

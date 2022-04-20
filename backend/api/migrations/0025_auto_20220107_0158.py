@@ -24,6 +24,7 @@ def recover_label(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
+    atomic = False
 
     dependencies = [
         ("api", "0024_auto_20211221_1444"),

@@ -11,6 +11,7 @@ def store_filename(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
+    atomic = False
 
     dependencies = [
         ("examples", "0004_example_upload_name"),

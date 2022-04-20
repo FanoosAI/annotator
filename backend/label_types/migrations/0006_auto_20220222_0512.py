@@ -24,6 +24,7 @@ def delete_new_relation_type(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
+    atomic = False
 
     dependencies = [
         ("label_types", "0005_relationtype_and_more"),

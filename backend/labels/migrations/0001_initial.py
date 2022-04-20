@@ -7,6 +7,7 @@ import django.db.models.expressions
 
 
 class Migration(migrations.Migration):
+    atomic = False
 
     initial = True
 

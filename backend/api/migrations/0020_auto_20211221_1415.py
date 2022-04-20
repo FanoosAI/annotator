@@ -6,6 +6,7 @@ from label_types.models import generate_random_hex_color
 
 
 class Migration(migrations.Migration):
+    atomic = False
 
     dependencies = [
         ("api", "0019_auto_20211124_0506"),
